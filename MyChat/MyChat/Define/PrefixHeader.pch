@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  MyChat
+///Users/simple/Documents/iosdemo/MyChat/MyChat/Define
+//  Created by simple on 2018/4/12.
+//  Copyright © 2018年 simple. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Message.h"
+#import "NSNotification+Extension.h"
+#import "UITypes+extension.h"
+#import <MQTTClient/MQTTClient.h>
+#import "VCBase.h"
+#import "Global.h"
+#import "KeyDefine.h"
+#import "NetUrl.h"
+#import <UIImageView+WebCache.h>
+#import <MBProgressHUD.h>
+#import "Toast.h"
+#import <YYKit.h>
+#import "MQTTManager.h"
+#import "AppUser.h"
+#import "NSDictionary+SafeAccess.h"
+
+#endif /* PrefixHeader_pch */
